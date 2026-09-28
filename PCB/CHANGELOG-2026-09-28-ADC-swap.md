@@ -683,7 +683,20 @@ Checked on Mouser Italy on 2026-09-28. The ordering file is **`PCB/bom/BOM_Mouse
 - **Precision resistors:** 1 MΩ and 1 kΩ are KOA RN73R (0.1 %, 25 ppm); 4.99k, 10k and 1.1k are Yageo RT0603BRD. The general-purpose parts are Yageo RC0603FR-07, except 105k = AC0603FR-07105KL.
 - ERC: 0 errors. The netlist is identical to Part 4.
 - **Open points:**
-  - J5 has no MPN yet: it needs a 1x03 2.54 mm SMD header with alternating pins to match the `_SMD_Pin1Right` footprint.
+  - J5 has no MPN yet: it needs a 1x03 1.27 mm SMD header with alternating pins to match the `_SMD_Pin1Right` footprint (changed from 2.54 mm to 1.27 mm pitch, see Part 6), plus a 1.27 mm shunt if it is used as a jumper.
   - OPA4350EA/250 is **end of life** (TI Last Time Buy): buy the needed quantity now.
   - Mouser stock not yet checked for D2, J2, J3, J7 and U1.
 - **Update PCB from Schematic** changes C62's footprint to 0805 (re-place it at J2) and updates U7's value.
+
+---
+
+# Part 6: J5 to 1.27 mm pitch (FOGLIO1)
+
+- J5 (Conn_01x03_Pin: pin 1 GND, pin 2 S_sac, pin 3 S8) footprint:
+  `Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Right`
+  → `Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical_SMD_Pin1Right`.
+- Same pin-1-right alternating layout, so the pin sides don't change: pins 1 and 3 on the right, pin 2 on the left.
+- Pads: 3.0 × 0.65 mm at x ±1.5, y −1.27 / 0 / +1.27. Courtyard 7.0 × 4.82 mm, where the 2.54 mm version was about 5.1 mm tall between pad centres.
+- Netlist: the only change is J5's footprint field; every net is identical.
+- ERC: 0 errors; the same 31 warnings as before (library-config and C_Small symbol-copy warnings).
+- The BOM row for J5 is updated to search for 1.27 mm headers; the MPN is still to be chosen.
