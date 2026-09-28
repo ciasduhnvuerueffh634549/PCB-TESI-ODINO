@@ -668,3 +668,22 @@ Notes:
 - D1 choice: over TI TVS0500 because the SMF starts conducting ~1.5 V earlier (6.4 V vs 7.5 V min), which is what matters for low-current hot-plug ringing; same ~9.2 V clamp at full surge; its 400 µA max leakage is irrelevant on a ~200 mA USB rail; hand-solderable. Neither TVS holds VBUS below the LM27762's 5.8 V abs-max; an OVP load switch (e.g. TPD1S514 family) would be the fix for a faulty charger (not added).
 - ERC: 0 errors (same warnings as before).
 - **Update PCB from Schematic** will remove C21's footprint, add D1, C62 and FB2, and move U4.3/C34/C33/R11/R12 onto the new net `+5V_CP`.
+
+---
+
+# Part 5: part numbers, value and part changes for procurement
+
+Checked on Mouser Italy on 2026-09-28. The ordering file is **`PCB/bom/BOM_Mouser_2026-09-28.csv`**, with quantities, MPNs, Mouser links, stock and EUR prices at qty 10 and 100.
+
+- **MPN + Manufacturer fields** added to all 123 parts that have a part to order. The old SnapEDA `MF` field was replaced by `Manufacturer`.
+- **Diff-amp 5k → 4.99k** (R23, R25, R28, R30, R33, R35, R40, R41, R43, R45, R50, R51, R55, R60). Exact 5.0 kΩ only exists at 0.1 %/25 ppm as about a €1.7 part. The same 4.99k/10k pair is used on both sides of every diff amp, so the ratio stays matched (gain 2.004).
+- **U7 TPS7A2033PDBVR → LP5907MFX-3.3/NOPB.** The TPS7A2033 was out of stock with a 26-week lead. The LP5907 has the same SOT-23-5 pinout (IN 1, GND 2, EN 3, NC 4, OUT 5) and the same footprint. Symbol is now `Regulator_Linear:LP5907MFX-3.3`, and the netlist is unchanged. Note its VIN max is 5.5 V vs 6.0 V.
+- **C62 → Murata GRM219R61C226ME15K, 22 µF 16 V X5R, footprint changed to 0805** (the ZRB 0603 was out of stock until mid-October).
+- **Capacitor MPNs:** 15 pF C0G = Samsung CL10C150JB8NNNC (every Murata 0603 15 pF C0G is NRND). 100 nF = GRM188R72A104KA35D, 1 µF = GRT188R71E105KE13D and 4.7 µF = GRT188R61C475KE13D, replacing obsolete or unorderable parts. 10 µF 0805 = GRJ21BR61E106KE01L.
+- **Precision resistors:** 1 MΩ and 1 kΩ are KOA RN73R (0.1 %, 25 ppm); 4.99k, 10k and 1.1k are Yageo RT0603BRD. The general-purpose parts are Yageo RC0603FR-07, except 105k = AC0603FR-07105KL.
+- ERC: 0 errors. The netlist is identical to Part 4.
+- **Open points:**
+  - J5 has no MPN yet: it needs a 1x03 2.54 mm SMD header with alternating pins to match the `_SMD_Pin1Right` footprint.
+  - OPA4350EA/250 is **end of life** (TI Last Time Buy): buy the needed quantity now.
+  - Mouser stock not yet checked for D2, J2, J3, J7 and U1.
+- **Update PCB from Schematic** changes C62's footprint to 0805 (re-place it at J2) and updates U7's value.

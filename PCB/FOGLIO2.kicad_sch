@@ -4455,7 +4455,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.99k"
 			(at 219.71 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4488,6 +4488,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 218.44 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD074K99L"
+			(at 218.44 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
 			(at 218.44 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4571,17 +4593,6 @@
 			)
 		)
 		(property "Description" "Quad rail-to-rail op-amp, SSOP-16 (OPA4350EA; KiCad OPA4340EA symbol, identical pinout)"
-			(at 127 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Texas Instruments"
 			(at 127 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4724,6 +4735,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 127 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "14"
 			(uuid "56f3820c-ab43-469a-a004-35a677fc9541")
 		)
@@ -4837,6 +4859,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 226.06 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD0710KL"
+			(at 226.06 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
 			(at 226.06 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -5038,7 +5082,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.99k"
 			(at 215.9 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5071,6 +5115,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 218.44 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD074K99L"
+			(at 218.44 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
 			(at 218.44 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5237,6 +5303,28 @@
 				)
 			)
 		)
+		(property "MPN" "CL10C150JB8NNNC"
+			(at 127 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 127 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "918a5c7a-5980-4a31-88d8-5dce39ae64a4")
 		)
@@ -5306,6 +5394,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 50.8 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10C150JB8NNNC"
+			(at 50.8 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 50.8 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5551,6 +5661,28 @@
 				)
 			)
 		)
+		(property "MPN" "GRM188R72A104KA35D"
+			(at 58.42 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 58.42 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2f48f141-d11d-4b35-b69f-50f5a21a9925")
 		)
@@ -5630,6 +5762,28 @@
 				)
 			)
 		)
+		(property "MPN" "CL10C150JB8NNNC"
+			(at 50.8 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 50.8 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8c829b51-9a07-40d2-bf4f-4b5efbaf166f")
 		)
@@ -5666,7 +5820,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.99k"
 			(at 311.15 127 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5699,6 +5853,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 309.88 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD074K99L"
+			(at 309.88 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
 			(at 309.88 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5869,17 +6045,6 @@
 				)
 			)
 		)
-		(property "MF" "Texas Instruments"
-			(at 330.2 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PACKAGE" "SSOP-16"
 			(at 330.2 152.4 0)
 			(hide yes)
@@ -6002,6 +6167,17 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/OPA4350EA/250/Texas+Instruments/view-part/?ref=eda"
+			(at 330.2 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 330.2 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6135,6 +6311,28 @@
 				)
 			)
 		)
+		(property "MPN" "RT0603BRD0710KL"
+			(at 238.76 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 238.76 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "77024898-beb0-4f37-8980-634c12086667")
 		)
@@ -6208,17 +6406,6 @@
 			)
 		)
 		(property "Description" "Quad rail-to-rail op-amp, SSOP-16 (OPA4350EA; KiCad OPA4340EA symbol, identical pinout)"
-			(at 238.76 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Texas Instruments"
 			(at 238.76 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6361,6 +6548,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 238.76 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "1d877633-aefc-4029-aaaa-80a6ac55157e")
 		)
@@ -6439,7 +6637,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.99k"
 			(at 219.71 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6472,6 +6670,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 218.44 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD074K99L"
+			(at 218.44 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
 			(at 218.44 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6563,6 +6783,28 @@
 				)
 			)
 		)
+		(property "MPN" "RT0603BRD0710KL"
+			(at 226.06 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 226.06 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d943d528-ac8a-424d-8120-0d9adaf1ebce")
 		)
@@ -6632,6 +6874,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 50.8 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RN73R1JTTD1004B25"
+			(at 50.8 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
 			(at 50.8 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6723,6 +6987,28 @@
 				)
 			)
 		)
+		(property "MPN" "RT0603BRD0710KL"
+			(at 330.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 330.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "19c01fa1-da3e-4989-8422-37a1300cb768")
 		)
@@ -6794,6 +7080,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 330.2 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD0710KL"
+			(at 330.2 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
 			(at 330.2 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7116,6 +7424,28 @@
 				)
 			)
 		)
+		(property "MPN" "GRM188R72A104KA35D"
+			(at 246.38 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 246.38 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "348af0d4-ee12-4dd3-a0fc-6a40ab3aa02a")
 		)
@@ -7187,6 +7517,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 226.06 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD0710KL"
+			(at 226.06 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
 			(at 226.06 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7353,6 +7705,28 @@
 				)
 			)
 		)
+		(property "MPN" "CL10C150JB8NNNC"
+			(at 50.8 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 50.8 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b878497e-bbe8-49a8-ae2b-4dc2704b5580")
 		)
@@ -7389,7 +7763,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.99k"
 			(at 215.9 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7422,6 +7796,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 218.44 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD074K99L"
+			(at 218.44 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
 			(at 218.44 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -7501,6 +7897,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 50.8 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RN73R1JTTD1004B25"
+			(at 50.8 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
 			(at 50.8 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7747,17 +8165,6 @@
 				)
 			)
 		)
-		(property "MF" "Texas Instruments"
-			(at 238.76 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PACKAGE" "SSOP-16"
 			(at 238.76 60.96 0)
 			(hide yes)
@@ -7890,6 +8297,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 238.76 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "09ed339a-9bc9-4f82-b8c3-91fcef3ee265")
 		)
@@ -7969,7 +8387,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.99k"
 			(at 307.34 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8002,6 +8420,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 309.88 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD074K99L"
+			(at 309.88 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
 			(at 309.88 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8170,6 +8610,28 @@
 				)
 			)
 		)
+		(property "MPN" "GRM188R72A104KA35D"
+			(at 68.58 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 68.58 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "66c356f2-8f04-407b-a432-3fa572af86a2")
 		)
@@ -8318,6 +8780,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 238.76 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD0710KL"
+			(at 238.76 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
 			(at 238.76 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8487,17 +8971,6 @@
 				)
 			)
 		)
-		(property "MF" "Texas Instruments"
-			(at 314.96 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PACKAGE" "SSOP-16"
 			(at 314.96 190.5 0)
 			(hide yes)
@@ -8620,6 +9093,17 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/OPA4350EA/250/Texas+Instruments/view-part/?ref=eda"
+			(at 314.96 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 314.96 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -8754,17 +9238,6 @@
 				)
 			)
 		)
-		(property "MF" "Texas Instruments"
-			(at 330.2 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PACKAGE" "SSOP-16"
 			(at 330.2 60.96 0)
 			(hide yes)
@@ -8887,6 +9360,17 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/OPA4350EA/250/Texas+Instruments/view-part/?ref=eda"
+			(at 330.2 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 330.2 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -9020,6 +9504,28 @@
 				)
 			)
 		)
+		(property "MPN" "RT0603BRD0710KL"
+			(at 238.76 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 238.76 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "36765dd4-6f2f-4a9f-8f32-e2e93c5367ff")
 		)
@@ -9056,7 +9562,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.99k"
 			(at 215.9 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9089,6 +9595,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 218.44 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD074K99L"
+			(at 218.44 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
 			(at 218.44 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9171,17 +9699,6 @@
 			)
 		)
 		(property "Description" "Quad rail-to-rail op-amp, SSOP-16 (OPA4350EA; KiCad OPA4340EA symbol, identical pinout)"
-			(at 121.92 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Texas Instruments"
 			(at 121.92 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -9314,6 +9831,17 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/OPA4350EA/250/Texas+Instruments/view-part/?ref=eda"
+			(at 121.92 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 121.92 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -9449,17 +9977,6 @@
 				)
 			)
 		)
-		(property "MF" "Texas Instruments"
-			(at 127 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PACKAGE" "SSOP-16"
 			(at 127 152.4 0)
 			(hide yes)
@@ -9582,6 +10099,17 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/OPA4350EA/250/Texas+Instruments/view-part/?ref=eda"
+			(at 127 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 127 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -9716,17 +10244,6 @@
 				)
 			)
 		)
-		(property "MF" "Texas Instruments"
-			(at 45.72 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PACKAGE" "SSOP-16"
 			(at 45.72 190.5 0)
 			(hide yes)
@@ -9849,6 +10366,17 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/OPA4350EA/250/Texas+Instruments/view-part/?ref=eda"
+			(at 45.72 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 45.72 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -10061,17 +10589,6 @@
 				)
 			)
 		)
-		(property "MF" "Texas Instruments"
-			(at 127 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PACKAGE" "SSOP-16"
 			(at 127 60.96 0)
 			(hide yes)
@@ -10194,6 +10711,17 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/OPA4350EA/250/Texas+Instruments/view-part/?ref=eda"
+			(at 127 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 127 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -10479,6 +11007,28 @@
 				)
 			)
 		)
+		(property "MPN" "RN73R1JTTD1004B25"
+			(at 127 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 127 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a32f376f-1d08-4136-b636-82da3871a7ce")
 		)
@@ -10548,6 +11098,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 50.8 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RN73R1JTTD1004B25"
+			(at 50.8 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
 			(at 50.8 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10671,7 +11243,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.99k"
 			(at 311.15 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10704,6 +11276,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 309.88 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD074K99L"
+			(at 309.88 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
 			(at 309.88 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -10870,6 +11464,28 @@
 				)
 			)
 		)
+		(property "MPN" "CL10C150JB8NNNC"
+			(at 50.8 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 50.8 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6c1025d9-b120-4de5-b4b6-d1bdadc0e6d5")
 		)
@@ -10941,6 +11557,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 134.62 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM188R72A104KA35D"
+			(at 134.62 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
 			(at 134.62 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -11030,6 +11668,28 @@
 				)
 			)
 		)
+		(property "MPN" "CL10C150JB8NNNC"
+			(at 127 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 127 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "33d7d18f-322d-47ee-99b0-766951d643c2")
 		)
@@ -11109,6 +11769,28 @@
 				)
 			)
 		)
+		(property "MPN" "RN73R1JTTD1004B25"
+			(at 50.8 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 50.8 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0cd0d548-a9c0-4581-abe7-d33f09c2f8d3")
 		)
@@ -11145,7 +11827,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.99k"
 			(at 307.34 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11178,6 +11860,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 309.88 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD074K99L"
+			(at 309.88 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
 			(at 309.88 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -11225,7 +11929,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.99k"
 			(at 215.9 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11258,6 +11962,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 218.44 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD074K99L"
+			(at 218.44 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
 			(at 218.44 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -11341,17 +12067,6 @@
 			)
 		)
 		(property "Description" "Quad rail-to-rail op-amp, SSOP-16 (OPA4350EA; KiCad OPA4340EA symbol, identical pinout)"
-			(at 50.8 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Texas Instruments"
 			(at 50.8 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -11494,6 +12209,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 50.8 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "f66551b4-1d9d-40d3-baf3-249442a3725a")
 		)
@@ -11572,7 +12298,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.99k"
 			(at 219.71 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11605,6 +12331,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 218.44 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD074K99L"
+			(at 218.44 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
 			(at 218.44 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -11684,6 +12432,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 127 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RN73R1JTTD1004B25"
+			(at 127 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
 			(at 127 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -11931,17 +12701,6 @@
 				)
 			)
 		)
-		(property "MF" "Texas Instruments"
-			(at 50.8 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PACKAGE" "SSOP-16"
 			(at 50.8 152.4 0)
 			(hide yes)
@@ -12064,6 +12823,17 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/OPA4350EA/250/Texas+Instruments/view-part/?ref=eda"
+			(at 50.8 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 50.8 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -12276,17 +13046,6 @@
 				)
 			)
 		)
-		(property "MF" "Texas Instruments"
-			(at 50.8 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PACKAGE" "SSOP-16"
 			(at 50.8 91.44 0)
 			(hide yes)
@@ -12409,6 +13168,17 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/OPA4350EA/250/Texas+Instruments/view-part/?ref=eda"
+			(at 50.8 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 50.8 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12543,17 +13313,6 @@
 				)
 			)
 		)
-		(property "MF" "Texas Instruments"
-			(at 50.8 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PACKAGE" "SSOP-16"
 			(at 50.8 60.96 0)
 			(hide yes)
@@ -12676,6 +13435,17 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/OPA4350EA/250/Texas+Instruments/view-part/?ref=eda"
+			(at 50.8 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 50.8 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -12886,6 +13656,28 @@
 				)
 			)
 		)
+		(property "MPN" "GRM188R72A104KA35D"
+			(at 327.66 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 327.66 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4806ce7a-3311-440b-b808-50c4b6ec18a1")
 		)
@@ -12957,6 +13749,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 236.22 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM188R72A104KA35D"
+			(at 236.22 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
 			(at 236.22 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -13048,6 +13862,28 @@
 				)
 			)
 		)
+		(property "MPN" "RT0603BRD0710KL"
+			(at 330.2 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 330.2 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f41dc676-dad4-41fe-9d07-711fa552d305")
 		)
@@ -13127,6 +13963,28 @@
 				)
 			)
 		)
+		(property "MPN" "CL10C150JB8NNNC"
+			(at 127 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 127 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d7a9d11e-8548-43b1-bd8d-b0cd81d48585")
 		)
@@ -13163,7 +14021,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.99k"
 			(at 311.15 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13196,6 +14054,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 309.88 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD074K99L"
+			(at 309.88 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
 			(at 309.88 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -13275,6 +14155,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 127 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RN73R1JTTD1004B25"
+			(at 127 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
 			(at 127 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -13597,6 +14499,28 @@
 				)
 			)
 		)
+		(property "MPN" "RT0603BRD0710KL"
+			(at 317.5 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 317.5 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f8818c84-f940-45ed-b52d-ed39813bc67e")
 		)
@@ -13757,17 +14681,6 @@
 				)
 			)
 		)
-		(property "MF" "Texas Instruments"
-			(at 330.2 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PACKAGE" "SSOP-16"
 			(at 330.2 91.44 0)
 			(hide yes)
@@ -13890,6 +14803,17 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/OPA4350EA/250/Texas+Instruments/view-part/?ref=eda"
+			(at 330.2 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 330.2 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -14178,17 +15102,6 @@
 				)
 			)
 		)
-		(property "MF" "Texas Instruments"
-			(at 127 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PACKAGE" "SSOP-16"
 			(at 127 121.92 0)
 			(hide yes)
@@ -14311,6 +15224,17 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/OPA4350EA/250/Texas+Instruments/view-part/?ref=eda"
+			(at 127 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 127 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -14446,17 +15370,6 @@
 				)
 			)
 		)
-		(property "MF" "Texas Instruments"
-			(at 238.76 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PACKAGE" "SSOP-16"
 			(at 238.76 152.4 0)
 			(hide yes)
@@ -14579,6 +15492,17 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/OPA4350EA/250/Texas+Instruments/view-part/?ref=eda"
+			(at 238.76 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 238.76 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -14789,6 +15713,28 @@
 				)
 			)
 		)
+		(property "MPN" "GRM188R72A104KA35D"
+			(at 337.82 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 337.82 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4b9ce30d-3d99-4060-9c5f-80a28a8f2764")
 		)
@@ -14937,6 +15883,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 317.5 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD0710KL"
+			(at 317.5 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
 			(at 317.5 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -15182,6 +16150,28 @@
 				)
 			)
 		)
+		(property "MPN" "RT0603BRD0710KL"
+			(at 317.5 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 317.5 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "284fc4c3-e2b0-42a5-9fed-5d44662d5aa1")
 		)
@@ -15253,6 +16243,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 144.78 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM188R72A104KA35D"
+			(at 144.78 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
 			(at 144.78 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -15342,6 +16354,28 @@
 				)
 			)
 		)
+		(property "MPN" "CL10C150JB8NNNC"
+			(at 127 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 127 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7c85fb2d-8b79-44ba-889f-dbf156c3f095")
 		)
@@ -15379,7 +16413,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.99k"
 			(at 307.34 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15412,6 +16446,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 309.88 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD074K99L"
+			(at 309.88 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
 			(at 309.88 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -15570,6 +16626,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 226.06 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD0710KL"
+			(at 226.06 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
 			(at 226.06 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -15740,17 +16818,6 @@
 				)
 			)
 		)
-		(property "MF" "Texas Instruments"
-			(at 238.76 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PACKAGE" "SSOP-16"
 			(at 238.76 121.92 0)
 			(hide yes)
@@ -15873,6 +16940,17 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/OPA4350EA/250/Texas+Instruments/view-part/?ref=eda"
+			(at 238.76 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 238.76 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -16008,17 +17086,6 @@
 				)
 			)
 		)
-		(property "MF" "Texas Instruments"
-			(at 330.2 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PACKAGE" "SSOP-16"
 			(at 330.2 121.92 0)
 			(hide yes)
@@ -16141,6 +17208,17 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/OPA4350EA/250/Texas+Instruments/view-part/?ref=eda"
+			(at 330.2 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 330.2 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -16275,17 +17353,6 @@
 				)
 			)
 		)
-		(property "MF" "Texas Instruments"
-			(at 223.52 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PACKAGE" "SSOP-16"
 			(at 223.52 190.5 0)
 			(hide yes)
@@ -16408,6 +17475,17 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/OPA4350EA/250/Texas+Instruments/view-part/?ref=eda"
+			(at 223.52 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 223.52 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -16650,7 +17728,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.99k"
 			(at 219.71 127 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16683,6 +17761,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 218.44 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD074K99L"
+			(at 218.44 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
 			(at 218.44 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -16849,6 +17949,28 @@
 				)
 			)
 		)
+		(property "MPN" "RN73R1JTTD1004B25"
+			(at 127 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 127 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "309fd85b-34c6-4b53-8233-ca877b912115")
 		)
@@ -16920,6 +18042,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 238.76 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD0710KL"
+			(at 238.76 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
 			(at 238.76 111.76 0)
 			(hide yes)
 			(show_name no)
