@@ -22,6 +22,56 @@
 		)
 		(uuid "f457ae9a-ba24-452c-8586-a4c0314305a9")
 	)
+	(wire
+		(pts
+			(xy 138.43 90.17) (xy 138.43 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b708b3c-3b8f-4049-8aef-be741126eb4e")
+	)
+	(wire
+		(pts
+			(xy 35.56 115.57) (xy 35.56 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "512e4c3a-e7cc-4b2f-b27e-a6a25964a62e")
+	)
+	(wire
+		(pts
+			(xy 138.43 115.57) (xy 35.56 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a35334-a18a-4069-921f-de2d39fef641")
+	)
+	(wire
+		(pts
+			(xy 151.13 90.17) (xy 138.43 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b49c6a30-dd25-498a-a581-99d73cd45c71")
+	)
+	(wire
+		(pts
+			(xy 35.56 97.79) (xy 40.64 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b67b81ed-7acc-459d-ac5f-7c63d8c83e73")
+	)
 	(global_label "S5"
 		(shape input)
 		(at 151.13 64.77 180)
@@ -904,6 +954,16 @@
 				(justify left)
 			)
 		)
+		(pin "Vsac" output
+			(at 151.13 90.17 180)
+			(uuid "e9359c90-065f-499d-acb9-40ddf2d5a526")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "Vout4" input
 			(at 151.13 80.01 180)
 			(uuid "76760966-8ee8-420f-b604-5b608936360b")
@@ -1144,6 +1204,16 @@
 		(pin "Vout7" input
 			(at 40.64 92.71 180)
 			(uuid "bab47abe-4ce8-4a43-a22c-5049b56c5796")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vsac" input
+			(at 40.64 97.79 180)
+			(uuid "8280b407-017f-43e1-8110-2b4d9caa262c")
 			(effects
 				(font
 					(size 1.27 1.27)
