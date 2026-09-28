@@ -1,0 +1,35 @@
+# KiCad: temporary and machine-local files
+# (based on github/gitignore KiCad.gitignore; BOM exports *.csv/*.xml are
+#  NOT ignored here because this repo tracks "PCB v2.csv")
+
+# Lock files (created while a project/board/sheet is open)
+*.lck
+
+# Autosaves and editor backups
+_autosave-*
+\#auto_saved_files#
+*-save.pro
+*-save.kicad_pcb
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*.bak
+*.bck
+*.000
+*.tmp
+*~
+
+# KiCad automatic project backups (zip archives)
+*-backups/
+
+# Footprint library cache
+fp-info-cache
+
+# Netlist / autorouter exchange files
+*.net
+*.dsn
+*.ses
+
+# Per-user view state (open layers, zoom, selection filter).
+# Not tracked: it changes every time KiCad opens the project.
+*.kicad_prl
