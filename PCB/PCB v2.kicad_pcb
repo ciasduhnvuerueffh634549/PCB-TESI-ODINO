@@ -31509,32 +31509,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "-5V"
-		(at 123.07 111.74 0)
-		(layer "F.SilkS" knockout)
-		(uuid "07981ffc-62ed-4f83-838e-397bea2f2d20")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.125)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "GND\n"
-		(at 125.72 96.07 0)
-		(layer "F.SilkS" knockout)
-		(uuid "9f98547f-425d-4bd3-9800-ab16bcf90bc6")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.125)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "-2V5"
 		(at 126.36 84.14 0)
 		(layer "F.SilkS" knockout)
@@ -31548,8 +31522,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "+5V"
-		(at 127.16 88.59 0)
+	(gr_text "GND"
+		(at 126.36 87.89 0)
 		(layer "F.SilkS" knockout)
 		(uuid "e3289c28-d037-4b37-9581-8d60b464d681")
 		(effects
@@ -31561,56 +31535,40 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND\n"
-		(at 127.17 90.43 0)
+	(gr_text "GND"
+		(at 123.38 108.48 0)
 		(layer "F.SilkS" knockout)
-		(uuid "09140836-38c1-4c94-9adb-cd051e67ce4e")
+		(uuid "f27cddea-e407-48fa-8d1a-f23fa67d47e7")
 		(effects
 			(font
 				(size 0.5 0.5)
 				(thickness 0.125)
 				(bold yes)
 			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "S8"
-		(at 126.54 120.32 90)
-		(layer "F.SilkS" knockout)
-		(uuid "02b35d95-2f49-4a5d-b31b-ef3e78bba0cb")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.125)
-				(bold yes)
-			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "S_SAC"
-		(at 130.29 114.64 90)
+		(at 124.1 113.73 0)
 		(layer "F.SilkS" knockout)
-		(uuid "4c31ee12-c2c8-464a-9fa2-ff597542809b")
+		(uuid "e86ff08a-34e2-4b4a-8a69-447e67d700ad")
 		(effects
 			(font
 				(size 0.5 0.5)
 				(thickness 0.125)
 				(bold yes)
 			)
-			(justify left bottom)
 		)
 	)
-	(gr_text "GND"
-		(at 136.8 119.22 90)
+	(gr_text "S8"
+		(at 128.12 108.48 0)
 		(layer "F.SilkS" knockout)
-		(uuid "2636f583-8b44-405e-ab88-c59239399096")
+		(uuid "c20797ec-1ec6-4084-922f-4f4b8d5246d8")
 		(effects
 			(font
 				(size 0.5 0.5)
 				(thickness 0.125)
 				(bold yes)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "GND"
