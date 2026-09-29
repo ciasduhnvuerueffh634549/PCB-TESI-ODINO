@@ -683,7 +683,7 @@ Checked on Mouser Italy on 2026-09-28. The ordering file is **`PCB/bom/BOM_Mouse
 - **Precision resistors:** 1 MΩ and 1 kΩ are KOA RN73R (0.1 %, 25 ppm); 4.99k, 10k and 1.1k are Yageo RT0603BRD. The general-purpose parts are Yageo RC0603FR-07, except 105k = AC0603FR-07105KL.
 - ERC: 0 errors. The netlist is identical to Part 4.
 - **Open points:**
-  - J5 has no MPN yet: it needs a 1x03 1.27 mm SMD header with alternating pins to match the `_SMD_Pin1Right` footprint (changed from 2.54 mm to 1.27 mm pitch, see Part 6), plus a 1.27 mm shunt if it is used as a jumper.
+  - J5 had no MPN at this point (chosen in Part 6): it needs a 1x03 1.27 mm SMD header with alternating pins to match the `_SMD_Pin1Right` footprint (changed from 2.54 mm to 1.27 mm pitch, see Part 6), plus a 1.27 mm shunt if it is used as a jumper.
   - OPA4350EA/250 is **end of life** (TI Last Time Buy): buy the needed quantity now.
   - Mouser stock not yet checked for D2, J2, J3, J7 and U1.
 - **Update PCB from Schematic** changes C62's footprint to 0805 (re-place it at J2) and updates U7's value.
@@ -699,4 +699,13 @@ Checked on Mouser Italy on 2026-09-28. The ordering file is **`PCB/bom/BOM_Mouse
 - Pads: 3.0 × 0.65 mm at x ±1.5, y −1.27 / 0 / +1.27. Courtyard 7.0 × 4.82 mm, where the 2.54 mm version was about 5.1 mm tall between pad centres.
 - Netlist: the only change is J5's footprint field; every net is identical.
 - ERC: 0 errors; the same 31 warnings as before (library-config and C_Small symbol-copy warnings).
-- The BOM row for J5 is updated to search for 1.27 mm headers; the MPN is still to be chosen.
+- The BOM row for J5 is updated to search for 1.27 mm headers.
+- J5 part chosen (2026-09-29):
+  - Header: **Harwin M50-3630342** (Archer M50, 1x03, 1.27 mm, vertical SMT; Mouser 855-M50-3630342).
+    - Tails alternate sides, and the datasheet land pattern (DRG-02647) is 0.65 x 3.00 mm pads, 6.00 mm span, 1.27 mm pitch.
+    - That is exactly `PinHeader_1x03_P1.27mm_Vertical_SMD_Pin1Right`.
+    - The part has no pin-1 marking. With 3 pins, a 180 degree rotation only swaps pins 1 and 3, so it fits either way round.
+    - Do not order M50-3530342: that is the through-hole version.
+  - Shunt: **Harwin M50-2000005** (1.27 mm jumper socket with handle, black; Mouser 855-M50-2000005). It is made for the M50 0.4 mm square posts. The red version is M50-2020005.
+  - The J5 symbol now has MPN / Manufacturer / Datasheet fields. The BOM has J5 filled in plus a separate "(J5 jumper)" line for the shunt.
+  - Stock and price are from an aggregator and Farnell (Mouser blocked automated reads). Recheck on mouser.it before ordering.

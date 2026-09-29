@@ -14928,7 +14928,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://content.harwin.com/asset/83ac22db-c414-41b6-9c7c-31bf0ab91f55/DRG-02647-Technical-Drawing-Datasheet-M50-363-pdf.pdf"
 			(at 91.44 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -14940,6 +14940,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 91.44 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "M50-3630342"
+			(at 91.44 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Harwin"
 			(at 91.44 113.03 0)
 			(hide yes)
 			(show_name no)
