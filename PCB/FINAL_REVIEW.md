@@ -25,7 +25,9 @@ I re-checked the claims marked ✔ against the board file myself.
 | S4 back diff-amp labels | Unchanged. Assemble that block from the iBOM, one value at a time. |
 | S5 knockout labels | **Fixed.** The 7 test-point and J5 labels are now normal (non-inverted) text, still 0.5 mm bold. |
 | S7 small vias | **Fixed.** The six 0.25/0.15 GND vias are now 0.3/0.2, so the smallest drill on the board is 0.2 mm (no surcharge). |
-| S6, S8–S11 | Open (optional). |
+| S6 identification | **Done by the designer.** B.Silk carries "Transimpedance Amplifier PVDF Interface / Rev 1 / Designers: Gabriele Odino - Riccardo Testa". The UniGe/DITEN logo is on F.Silk (bottom edge) and the COSMIC lab logo on B.Silk. Both logos are board-only and excluded from the BOM and position files. The back AIN0–7 labels were removed. |
+| Logo line widths | The fine lines won't print cleanly. Checked by eroding the silkscreen render: DITEN's three-line department name has strokes of about 0.10–0.12 mm, and the COSMIC tagline ("Connected Objects / Sensing Materials / Integrated Circuits") about 0.07–0.08 mm. JLC's minimum silk line is 0.15 mm, so expect the department name to print faint or broken and the tagline to be lost. The university name, the shield, "DITEN", "COSMIC lab" and the title text are wide enough. Cosmetic only. |
+| S8–S11 | Open (optional). |
 
 **DRC after these fixes:** 0 unconnected, 0 clearance errors, 0 mask bridges, 0 silk overlaps. The only items left are the intentional ones: 63 `text_height` (0.5 mm text), 21 starved thermals, 22 + 5 library notices, and the non-physical C48/J7 courtyard overlap.
 

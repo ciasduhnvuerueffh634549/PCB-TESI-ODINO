@@ -713,7 +713,7 @@ About 60 vias sit inside SMD pads:
   - A few labels sit over the solder-mask-covered ring of a tented via, but never over the drill. Vias are tented on both sides.
 - **Per-channel labels (0.8 mm):**
   - **CH1–CH7** on B.SilkS, one next to each diff-amp resistor group.
-  - **AIN0–AIN7** on B.SilkS, directly behind each divider C / Rs / Rsh triple. The front has no room for 0.8 mm text between the two 3.2 mm-pitch columns.
+  - The back-side AIN0–AIN7 labels behind the divider triples were removed by the designer; the divider channels are identified by the front 0.5 mm references and the channel map below.
   - The channel map is AIN0=Vout1, AIN1=Vout4, AIN2=Vout2, AIN3=Vout3, AIN4=Vout5, AIN5=Vout6, AIN6=Vout7, AIN7=Vsac (Section 10).
 - **J7 pin names (0.8 mm):** these replace the old AD7606-era texts (Vdrive, CONVST, SPI_MISO, SPI_CS, SPI_SCK, BUSY, RESET).
   - Odd row, above the pads: SYNC, GND, CS, GND, DRDY, GND (pins 1, 3, …, 11).
