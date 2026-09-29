@@ -7640,7 +7640,7 @@
 		)
 		(uuid "68d6eabc-879f-42a3-a84e-4553e2e0ed4a")
 	)
-	(text "Ratio 1.0k/(1.1k+1.0k) = 0.476 -> op-amp ±2.45 V maps to ±1.17 V (ADS131M08 FS ±1.2 V).\nThevenin 524 Ω + 10 nF C0G -> fc ≈ 30 kHz. AINnN tied to GND at U2 (pseudo-differential).\nCH7 digitises the sacrificial-sensor output Vsac for diagnostics."
+	(text "Ratio 1.0k/(1.1k+1.0k) = 0.476 -> op-amp ±2.45 V maps to ±1.17 V (ADS131M08 FS ±1.2 V).\nThevenin 524 Ω + 10 nF C0G -> fc ≈ 30 kHz. AINnN tied to GND at U2 (pseudo-differential).\nCH7 digitises the sacrificial-sensor output Vsac for diagnostics.\nChannel map (set by the PCB routing): AIN0=Vout1, AIN1=Vout4, AIN2=Vout2, AIN3=Vout3,\nAIN4=Vout5, AIN5=Vout6, AIN6=Vout7, AIN7=Vsac."
 		(exclude_from_sim no)
 		(at 297.18 172.72 0)
 		(effects
@@ -10556,7 +10556,7 @@
 		)
 		(uuid "437bc957-e667-495c-b14a-f680242bda3a")
 	)
-	(hierarchical_label "Vout2"
+	(hierarchical_label "Vout4"
 		(shape input)
 		(at 304.8 66.04 180)
 		(effects
@@ -10578,7 +10578,7 @@
 		)
 		(uuid "4df9c269-846a-46e1-9390-1136d705a2f7")
 	)
-	(hierarchical_label "Vout4"
+	(hierarchical_label "Vout3"
 		(shape input)
 		(at 304.8 96.52 180)
 		(effects
@@ -10644,7 +10644,7 @@
 		)
 		(uuid "d55f49a6-856d-4bf2-be0a-9d2f5693bf68")
 	)
-	(hierarchical_label "Vout3"
+	(hierarchical_label "Vout2"
 		(shape input)
 		(at 304.8 81.28 180)
 		(effects

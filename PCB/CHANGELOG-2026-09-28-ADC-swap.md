@@ -709,3 +709,46 @@ Checked on Mouser Italy on 2026-09-28. The ordering file is **`PCB/bom/BOM_Mouse
   - Shunt: **Harwin M50-2000005** (1.27 mm jumper socket with handle, black; Mouser 855-M50-2000005). It is made for the M50 0.4 mm square posts. The red version is M50-2020005.
   - The J5 symbol now has MPN / Manufacturer / Datasheet fields. The BOM has J5 filled in plus a separate "(J5 jumper)" line for the shunt.
   - Stock and price are from an aggregator and Farnell (Mouser blocked automated reads). Recheck on mouser.it before ordering.
+
+---
+
+# Part 7: ADC channel rotation for AIN1–AIN3 (FOGLIO1), set by the PCB routing
+
+## Why
+
+- The eight divider groups sit in a two-column block between U11/U12 and U2. They are stacked top to bottom in AIN0 to AIN7 order, so the AIN fan-in to U2 has no crossings.
+- Each U11 output can only leave the op-amp in one practical direction, and that fixes the order the Vouts arrive in:
+  - Vout4 leaves pin 16 cleanly on F.Cu at the top.
+  - Vout3 can only go down and to the right from pin 10, because the D3P fan-out via blocks the way up.
+  - Vout2 is boxed in by the Q2/Q3 vias and has to drop to B.Cu anyway.
+- Top to bottom they therefore arrive as Vout1, Vout4, Vout2, Vout3.
+- Keeping the old mapping would have cost 3–4 extra vias plus a 0.65 mm squeeze that crosses an AIN line.
+- The firmware has not been written yet, so the rotation only costs a channel lookup table there.
+
+## Change
+
+The three `hierarchical_label`s at the divider inputs (x 304.8) are renamed. The set of names stays {Vout2, Vout3, Vout4}, so the sheet pins and the root global labels are untouched.
+
+| Divider | ADC input | Before | After |
+|---|---|---|---|
+| R63 (+R64, C49) | AIN1P | Vout2 | **Vout4** |
+| R65 (+R66, C50) | AIN2P | Vout3 | **Vout2** |
+| R67 (+R68, C51) | AIN3P | Vout4 | **Vout3** |
+
+The divider note on the sheet now carries the full map. Firmware lookup table (ADC channel → signal):
+
+| AIN0 | AIN1 | AIN2 | AIN3 | AIN4 | AIN5 | AIN6 | AIN7 |
+|---|---|---|---|---|---|---|---|
+| Vout1 | Vout4 | Vout2 | Vout3 | Vout5 | Vout6 | Vout7 | Vsac |
+
+## Net diff (`kicad-cli sch export netlist`)
+
+Only these three nets change; every other net is identical.
+
+- Vout2: R29.2, **R63.1** → **R65.1**, U11.7
+- Vout3: R39.2, **R65.1** → **R67.1**, U11.10
+- Vout4: R38.2, **R67.1** → **R63.1**, U11.16
+
+## ERC
+
+0 errors, and the same 31 warnings as before.
