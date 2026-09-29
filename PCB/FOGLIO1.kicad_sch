@@ -7707,7 +7707,7 @@
 		)
 		(uuid "df7277bd-1212-4298-b908-27b791e3d860")
 	)
-	(text "+5V -> U7 TPS7A2033 -> +3.3VA (U2 AVDD)\n+3.3VA -> FB1 -> +3V3 (U2 DVDD, U3, pull-ups)"
+	(text "+5V -> U7 LP5907MFX-3.3 -> +3.3VA (U2 AVDD)\n+3.3VA -> FB1 -> +3V3 (U2 DVDD, U3, pull-ups)"
 		(exclude_from_sim no)
 		(at 297.18 220.98 0)
 		(effects
