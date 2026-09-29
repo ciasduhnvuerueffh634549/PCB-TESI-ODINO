@@ -7899,12 +7899,6 @@
 		(uuid "78a49b3f-dc42-4af0-b826-9c6c751d1f1c")
 	)
 	(junction
-		(at 228.6 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78f4c114-6825-4376-8725-33af60f1d7d6")
-	)
-	(junction
 		(at 125.73 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8514,7 +8508,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 129.54) (xy 228.6 129.54)
+			(xy 231.14 129.54) (xy 226.06 129.54)
 		)
 		(stroke
 			(width 0)
@@ -9271,16 +9265,6 @@
 			(type default)
 		)
 		(uuid "97db8bf5-64e6-4c16-820c-5d455e37a152")
-	)
-	(wire
-		(pts
-			(xy 228.6 127) (xy 228.6 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9970dda3-6fcb-41c7-934f-5bde4b062970")
 	)
 	(wire
 		(pts
@@ -10232,7 +10216,7 @@
 		)
 		(uuid "48166a93-76a0-4fa1-9319-3bf8bcabe0a0")
 	)
-	(label "ADC_CS"
+	(label "ADC_MISO"
 		(at 248.92 134.62 0)
 		(effects
 			(font
@@ -10252,7 +10236,7 @@
 		)
 		(uuid "4deac523-c805-4848-a83a-29a7c7306d7a")
 	)
-	(label "ADC_SYNC_RESET"
+	(label "ADC_SCLK"
 		(at 248.92 137.16 0)
 		(effects
 			(font
@@ -10261,16 +10245,6 @@
 			(justify left bottom)
 		)
 		(uuid "592a6b02-1eb1-4e9d-859d-2840ea4437c7")
-	)
-	(label "ADC_MISO"
-		(at 226.06 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "65439d1f-309c-4fe9-9365-3285d178fc35")
 	)
 	(label "AIN3P"
 		(at 114.3 142.24 180)
@@ -10422,7 +10396,7 @@
 		)
 		(uuid "c828b757-6a2c-4e39-980e-3b8e07b8658a")
 	)
-	(label "ADC_MOSI"
+	(label "ADC_CS"
 		(at 226.06 132.08 180)
 		(effects
 			(font
@@ -10462,7 +10436,7 @@
 		)
 		(uuid "d3bd5a08-a67e-4858-9e5f-8cba05cdd4e1")
 	)
-	(label "ADC_SCLK"
+	(label "ADC_MOSI"
 		(at 248.92 129.54 0)
 		(effects
 			(font
@@ -10511,6 +10485,16 @@
 			(justify right bottom)
 		)
 		(uuid "f99bcefb-21ea-4b0d-92c8-35d11abfc53f")
+	)
+	(label "ADC_SYNC_RESET"
+		(at 226.06 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f70d89dc-a84f-419a-8730-0ef7d3f68604")
 	)
 	(hierarchical_label "Vout1"
 		(shape input)
@@ -13638,7 +13622,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 226.06 127 270)
+		(at 226.06 129.54 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13670,7 +13654,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 127 0)
+			(at 226.06 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13681,7 +13665,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 127 0)
+			(at 226.06 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13692,7 +13676,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\""
-			(at 226.06 127 0)
+			(at 226.06 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19631,6 +19615,84 @@
 			(project "PCB v2"
 				(path "/24ef9d1c-01f2-41da-ba56-668788d745bf/5688e730-73cf-4d97-bb68-8c6c1c24aa96"
 					(reference "#PWR0158")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 226.06 134.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8138f5c-e294-4bb3-9638-2c4e6bb98b91")
+		(property "Reference" "#PWR0243"
+			(at 226.06 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\""
+			(at 226.06 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85c4e3e1-b09d-4722-8287-fd3693a6fbd5")
+		)
+		(instances
+			(project "PCB v2"
+				(path "/24ef9d1c-01f2-41da-ba56-668788d745bf/5688e730-73cf-4d97-bb68-8c6c1c24aa96"
+					(reference "#PWR0243")
 					(unit 1)
 				)
 			)

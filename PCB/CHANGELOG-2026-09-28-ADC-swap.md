@@ -752,3 +752,43 @@ Only these three nets change; every other net is identical.
 ## ERC
 
 0 errors, and the same 31 warnings as before.
+
+---
+
+# Part 8: J7 (MCU header) re-pinned to match U2's pin order (FOGLIO1)
+
+## Why
+
+- The clock and the six ADC digital lines enter U2 from its right side. From top to bottom they arrive as CLKIN (via U3/R80), DIN, DOUT (via R81), SCLK, DRDY (via R82), CS, and then SYNC at the bottom corner.
+- With the old J7 order, the F.Cu fan-out to the header crossed itself. Digital return currents should not go on B.Cu, because it sits over the +2V5 analog plane.
+- The new order lets the lines run up the right board edge and enter J7 from the side:
+  - DIN, MISO, SCLK, DRDY and CS go through the 1.9 mm gap between the two pad rows. They peel off down into the bottom row or up into the top row in the order they arrive.
+  - SYNC reaches pad 1 from the side.
+  - MCU_CLK stays on pin 2, directly above U3.
+
+## New pinout
+
+| Pin | Before | After | Pin | Before | After |
+|---|---|---|---|---|---|
+| 1 | GND | **ADC_SYNC_RESET** | 2 | MCU_CLK | MCU_CLK |
+| 3 | GND | GND | 4 | ADC_SCLK | **ADC_MOSI** |
+| 5 | ADC_MOSI | **ADC_CS** | 6 | GND | GND |
+| 7 | ADC_MISO | **GND** | 8 | ADC_CS | **ADC_MISO** |
+| 9 | ADC_DRDY | ADC_DRDY | 10 | ADC_SYNC_RESET | **ADC_SCLK** |
+| 11 | GND | GND | 12 | GND | GND |
+
+- There are still 5 GND pins.
+- MCU_CLK has GND on pin 3 as its ribbon-cable neighbour. Its other neighbour, pin 1, is SYNC_RESET, which rarely switches.
+- **The MCU-side wiring must follow this table.**
+
+## Drawing
+
+- Pin 1 was tied to pin 3's GND. That tie wire and its junction are removed. Pin 3 keeps a GND symbol of its own (#PWR0160 moved), and pin 1 gets an ADC_SYNC_RESET label.
+- Pin 7's ADC_MISO label is replaced by a GND symbol (#PWR0243, new).
+- The other signal labels are renamed in place.
+
+## Checks
+
+- Netlist: only J7's pin memberships change. Every other member of every net is identical.
+- ERC: 0 errors, with the same 31 warnings as before.
+- PCB: the J7 pad nets were updated to match. The pin 1 GND via was removed and a pin 7 GND via added.
